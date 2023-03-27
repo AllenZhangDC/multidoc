@@ -8,13 +8,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'GJWC',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://192.227.220.60',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'GJWC', // Usually your GitHub org/user name.
   projectName: 'GJWC Documentation', // Usually your repo name.
+
+    // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
 
   presets: [
     [
@@ -42,6 +51,12 @@ const config = {
   ],
 
   plugins: [
+    [
+      '@cmfcmf/docusaurus-search-local',
+      {
+        maxSearchResults: 8,
+      }
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
