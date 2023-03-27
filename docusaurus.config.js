@@ -49,7 +49,7 @@ const config = {
         path: 'demo',
         routeBasePath: 'demo',
         sidebarPath: require.resolve('./sidebarsDemo.js'),
-        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/demo',
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/',
       },
     ],
     [
@@ -59,7 +59,7 @@ const config = {
         path: '01ads',
         routeBasePath: '01ads',
         sidebarPath: require.resolve('./sidebars01Ads.js'),
-        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/01ads',
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/',
       },
     ],
     [
@@ -69,7 +69,7 @@ const config = {
         path: '02exam',
         routeBasePath: '02exam',
         sidebarPath: require.resolve('./sidebars02Exam.js'),
-        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/02exam',
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/',
       },
     ],
     [
@@ -79,7 +79,7 @@ const config = {
         path: '03vpn',
         routeBasePath: '03vpn',
         sidebarPath: require.resolve('./sidebars03VPN.js'),
-        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/03vpn',
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/',
       },
     ],
   ],
