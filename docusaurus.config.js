@@ -26,13 +26,13 @@ const config = {
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/AllenZhangDC/multidoc/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/AllenZhangDC/multidoc/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -49,6 +49,7 @@ const config = {
         path: 'demo',
         routeBasePath: 'demo',
         sidebarPath: require.resolve('./sidebarsDemo.js'),
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/demo',
       },
     ],
     [
@@ -58,6 +59,7 @@ const config = {
         path: '01ads',
         routeBasePath: '01ads',
         sidebarPath: require.resolve('./sidebars01Ads.js'),
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/01ads',
       },
     ],
     [
@@ -67,6 +69,7 @@ const config = {
         path: '02exam',
         routeBasePath: '02exam',
         sidebarPath: require.resolve('./sidebars02Exam.js'),
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/02exam',
       },
     ],
     [
@@ -76,6 +79,7 @@ const config = {
         path: '03vpn',
         routeBasePath: '03vpn',
         sidebarPath: require.resolve('./sidebars03VPN.js'),
+        editUrl:'https://github.com/AllenZhangDC/multidoc/tree/main/03vpn',
       },
     ],
   ],
