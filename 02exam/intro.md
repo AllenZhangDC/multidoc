@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Demo Docs
+# Exam Demo Docs
 
 Here's an example document.
