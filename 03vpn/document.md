@@ -1,3 +1,6 @@
 # Another document
 
-Something
+Nice!
+```tsx
+<div>Good job</div>
+```
